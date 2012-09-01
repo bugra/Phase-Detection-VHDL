@@ -1,0 +1,70 @@
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+ngdbuild -ise "D:/Project/Project/Project.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc4vsx35-ff668-10 "toplevel.ngc" toplevel.ngd
+map -ise "D:/Project/Project/Project.ise" -intstyle ise -p xc4vsx35-ff668-10 -cm area -pr off -k 4 -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf
+par -ise "D:/Project/Project/Project.ise" -w -intstyle ise -ol std -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf
+trce -ise "D:/Project/Project/Project.ise" -intstyle ise -v 3 -s 10 -xml toplevel toplevel.ncd -o toplevel.twr toplevel.pcf
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+ngdbuild -ise "D:/Project/Project/Project.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc4vsx35-ff668-10 "toplevel.ngc" toplevel.ngd
+map -ise "D:/Project/Project/Project.ise" -intstyle ise -p xc4vsx35-ff668-10 -cm area -pr off -k 4 -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf
+par -ise "D:/Project/Project/Project.ise" -w -intstyle ise -ol std -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf
+trce -ise "D:/Project/Project/Project.ise" -intstyle ise -v 3 -s 10 -xml toplevel toplevel.ncd -o toplevel.twr toplevel.pcf
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+ngdbuild -ise "D:/Project/Project/Project.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc4vsx35-ff668-10 "toplevel.ngc" toplevel.ngd
+map -ise "D:/Project/Project/Project.ise" -intstyle ise -p xc4vsx35-ff668-10 -cm area -pr off -k 4 -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf
+par -ise "D:/Project/Project/Project.ise" -w -intstyle ise -ol std -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf
+trce -ise "D:/Project/Project/Project.ise" -intstyle ise -v 3 -s 10 -xml toplevel toplevel.ncd -o toplevel.twr toplevel.pcf
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+ngdbuild -ise "D:/Project/Project/Project.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc4vsx35-ff668-10 "toplevel.ngc" toplevel.ngd
+map -ise "D:/Project/Project/Project.ise" -intstyle ise -p xc4vsx35-ff668-10 -cm area -pr off -k 4 -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf
+par -ise "D:/Project/Project/Project.ise" -w -intstyle ise -ol std -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf
+trce -ise "D:/Project/Project/Project.ise" -intstyle ise -v 3 -s 10 -xml toplevel toplevel.ncd -o toplevel.twr toplevel.pcf
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+ngdbuild -ise "D:/Project/Project/Project.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc4vsx35-ff668-10 "toplevel.ngc" toplevel.ngd
+map -ise "D:/Project/Project/Project.ise" -intstyle ise -p xc4vsx35-ff668-10 -cm area -pr off -k 4 -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf
+par -ise "D:/Project/Project/Project.ise" -w -intstyle ise -ol std -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf
+trce -ise "D:/Project/Project/Project.ise" -intstyle ise -v 3 -s 10 -xml toplevel toplevel.ncd -o toplevel.twr toplevel.pcf
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+ngdbuild -ise "D:/Project/Project/Project.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc4vsx35-ff668-10 "toplevel.ngc" toplevel.ngd
+map -ise "D:/Project/Project/Project.ise" -intstyle ise -p xc4vsx35-ff668-10 -cm area -pr off -k 4 -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf
+par -ise "D:/Project/Project/Project.ise" -w -intstyle ise -ol std -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf
+trce -ise "D:/Project/Project/Project.ise" -intstyle ise -v 3 -s 10 -xml toplevel toplevel.ncd -o toplevel.twr toplevel.pcf
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+ngdbuild -ise "D:/Project/Project/Project.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc4vsx35-ff668-10 "toplevel.ngc" toplevel.ngd
+map -ise "D:/Project/Project/Project.ise" -intstyle ise -p xc4vsx35-ff668-10 -cm area -pr off -k 4 -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf
+par -ise "D:/Project/Project/Project.ise" -w -intstyle ise -ol std -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf
+trce -ise "D:/Project/Project/Project.ise" -intstyle ise -v 3 -s 10 -xml toplevel toplevel.ncd -o toplevel.twr toplevel.pcf
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"
+xst -ise "D:/Project/Project/Project.ise" -intstyle ise -ifn "D:/Project/Project/toplevel.xst" -ofn "D:/Project/Project/toplevel.syr"

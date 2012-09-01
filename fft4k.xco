@@ -1,0 +1,65 @@
+##############################################################
+#
+# Xilinx Core Generator version K.39
+# Date: Mon Aug 23 12:22:03 2010
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = False
+SET asysymbol = True
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = False
+SET designentry = VHDL
+SET device = xc4vsx35
+SET devicefamily = virtex4
+SET flowvendor = Foundation_iSE
+SET formalverification = False
+SET foundationsym = False
+SET implementationfiletype = Ngc
+SET package = ff668
+SET removerpms = False
+SET simulationfiles = Behavioral
+SET speedgrade = -10
+SET verilogsim = True
+SET vhdlsim = True
+# END Project Options
+# BEGIN Select
+SELECT Fast_Fourier_Transform family Xilinx,_Inc. 5.0
+# END Select
+# BEGIN Parameters
+CSET ce=false
+CSET channels=1
+CSET component_name=fft4k
+CSET cyclic_prefix_insertion=false
+CSET fast_butterfly=false
+CSET fast_complex_mult=false
+CSET implementation_options=pipelined_streaming_io
+CSET input_width=14
+CSET memory_options_data=block_ram
+CSET memory_options_hybrid=false
+CSET memory_options_phase_factors=block_ram
+CSET memory_options_reorder=block_ram
+CSET number_of_stages_using_block_ram_for_data_and_phase_factors=5
+CSET optimize_for_speed_using_xtreme_dsp_slices=false
+CSET output_ordering=natural_order
+CSET ovflo=false
+CSET phase_factor_width=16
+CSET rounding_modes=truncation
+CSET run_time_configurable_transform_length=false
+CSET scaling_options=scaled
+CSET sclr=false
+CSET target_clock_frequency=100
+CSET target_data_throughput=50
+CSET transform_length=4096
+# END Parameters
+GENERATE
+# CRC: 8057ecd0
+

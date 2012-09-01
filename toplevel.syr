@@ -1,0 +1,364 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Project/Project/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to D:/Project/Project/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: toplevel.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "toplevel.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "toplevel"
+Output Format                      : NGC
+Target Device                      : xc4vsx35-10-ff668
+
+---- Source Options
+Top Module Name                    : toplevel
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 32
+Number of Regional Clock Buffers   : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Library Search Order               : toplevel.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "./fifo.v" in library work
+Compiling verilog file "./fft4k.v" in library work
+Module <fifo> compiled
+Compiling verilog file "dds.v" in library work
+Module <fft4k> compiled
+Module <dds> compiled
+No errors in compilation
+Analysis of file <"toplevel.prj"> succeeded.
+ 
+Compiling vhdl file "D:/Project/Project/fft_method.vhd" in Library work.
+Architecture behavioral of Entity fft_method is up to date.
+Compiling vhdl file "D:/Project/Project/multiplicationmethod.vhd" in Library work.
+Architecture behavioral of Entity multiplicationmethod is up to date.
+Compiling vhdl file "D:/Project/Project/toplevel.vhd" in Library work.
+Architecture behavioral of Entity toplevel is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <toplevel> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <fft_method> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <multiplicationmethod> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <toplevel> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "D:/Project/Project/toplevel.vhd" line 85: Instantiating black box module <dds>.
+Entity <toplevel> analyzed. Unit <toplevel> generated.
+
+Analyzing Entity <fft_method> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "D:/Project/Project/fft_method.vhd" line 181: Instantiating black box module <fft4k>.
+INFO:Xst:1432 - Contents of array <realValues> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <realValues> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1432 - Contents of array <imaginaryValues> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <imaginaryValues> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1432 - Contents of array <sumofValues> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <sumofValues> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1432 - Contents of array <realValues> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <realValues> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1432 - Contents of array <realValues> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <realValues> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1432 - Contents of array <imaginaryValues> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <imaginaryValues> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1432 - Contents of array <imaginaryValues> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <imaginaryValues> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1432 - Contents of array <sumofValues> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <sumofValues> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1432 - Contents of array <realValues> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <realValues> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1432 - Contents of array <imaginaryValues> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <imaginaryValues> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:819 - "D:/Project/Project/fft_method.vhd" line 377: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <wr_en>, <counter>, <delay>
+Entity <fft_method> analyzed. Unit <fft_method> generated.
+
+Analyzing Entity <multiplicationmethod> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/Project/Project/multiplicationmethod.vhd" line 152: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <counter>, <delay>
+WARNING:Xst:819 - "D:/Project/Project/multiplicationmethod.vhd" line 165: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <mav_op>
+Entity <multiplicationmethod> analyzed. Unit <multiplicationmethod> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <multiplicationmethod>.
+    Related source file is "D:/Project/Project/multiplicationmethod.vhd".
+WARNING:Xst:646 - Signal <mav4<3:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <delayedOutput> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <delay> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000010000.
+    Found 32-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <multiplicationmethod> synthesized.
+
+
+Synthesizing Unit <fft_method>.
+    Related source file is "D:/Project/Project/fft_method.vhd".
+WARNING:Xst:647 - Input <ADC2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <xn_index> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <xn_im> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <xk_index> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <threshold_low> is used but never assigned. This sourceless signal will be automatically connected to value 000011101011111110011110101.
+WARNING:Xst:653 - Signal <threshold_high> is used but never assigned. This sourceless signal will be automatically connected to value 000111011000010101001110011.
+WARNING:Xst:1780 - Signal <start> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <scale_sch_we> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <scale_sch> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rst_end> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rst_bgn> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <rfd> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <maxRealValue> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <maxImaginaryValue> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <mav4<3:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <lengthofArray> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000001000000000000.
+WARNING:Xst:646 - Signal <index> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <fwd_inv_we> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <fwd_inv> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <full> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <empty> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <edone> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dout> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <done> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <delay> is used but never assigned. This sourceless signal will be automatically connected to value 00000110010000.
+WARNING:Xst:646 - Signal <busy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <almost_full> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <almost_empty> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+INFO:Xst:1439 - HDL ADVISOR - You may have used signed signal(s) to address this RAM. If that is the case, negative values being out of range, sign bits were ignored. As a result only the first half of the RAM is actually accessed. Please check your source code.
+    Found 4096x14-bit single-port RAM <Mram_realValues> for signal <realValues>.
+INFO:Xst:1439 - HDL ADVISOR - You may have used signed signal(s) to address this RAM. If that is the case, negative values being out of range, sign bits were ignored. As a result only the first half of the RAM is actually accessed. Please check your source code.
+    Found 4096x14-bit single-port RAM <Mram_imaginaryValues> for signal <imaginaryValues>.
+WARNING:Xst:737 - Found 1-bit latch for signal <rd_en>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 32-bit comparator less for signal <$cmp_lt0000> created at line 301.
+    Found 32-bit 4096-to-1 multiplexer for signal <$varindex0000> created at line 319.
+    Found 28-bit register for signal <ADC1_sq>.
+    Found 14x14-bit multiplier for signal <ADC1_sq$mult0000> created at line 254.
+    Found 32-bit up counter for signal <cnt>.
+    Found 32-bit up counter for signal <count>.
+    Found 32-bit comparator lessequal for signal <count$cmp_le0000> created at line 319.
+    Found 14-bit adder for signal <counter$addsub0000> created at line 383.
+    Found 1-bit register for signal <digitalSignal>.
+    Found 27-bit comparator greater for signal <digitalSignal$cmp_gt0000> created at line 364.
+    Found 27-bit comparator less for signal <digitalSignal$cmp_lt0000> created at line 358.
+    Found 1-bit register for signal <digitalSignal_1d>.
+    Found 28-bit register for signal <mav1_1>.
+    Found 28-bit adder for signal <mav1_1$add0000> created at line 272.
+    Found 28-bit register for signal <mav1_2>.
+    Found 28-bit adder for signal <mav1_2$add0000> created at line 273.
+    Found 28-bit register for signal <mav1_3>.
+    Found 28-bit adder for signal <mav1_3$add0000> created at line 274.
+    Found 28-bit register for signal <mav1_4>.
+    Found 28-bit adder for signal <mav1_4$add0000> created at line 275.
+    Found 28-bit register for signal <mav1_5>.
+    Found 28-bit adder for signal <mav1_5$add0000> created at line 276.
+    Found 28-bit register for signal <mav1_6>.
+    Found 28-bit adder for signal <mav1_6$add0000> created at line 277.
+    Found 28-bit register for signal <mav1_7>.
+    Found 28-bit adder for signal <mav1_7$add0000> created at line 278.
+    Found 28-bit register for signal <mav1_8>.
+    Found 28-bit adder for signal <mav1_8$add0000> created at line 279.
+    Found 29-bit register for signal <mav2_1>.
+    Found 29-bit adder for signal <mav2_1$add0000> created at line 281.
+    Found 29-bit register for signal <mav2_2>.
+    Found 29-bit adder for signal <mav2_2$add0000> created at line 282.
+    Found 29-bit register for signal <mav2_3>.
+    Found 29-bit adder for signal <mav2_3$add0000> created at line 283.
+    Found 29-bit register for signal <mav2_4>.
+    Found 29-bit adder for signal <mav2_4$add0000> created at line 284.
+    Found 30-bit register for signal <mav3_1>.
+    Found 30-bit adder for signal <mav3_1$add0000> created at line 286.
+    Found 30-bit register for signal <mav3_2>.
+    Found 30-bit adder for signal <mav3_2$add0000> created at line 287.
+    Found 31-bit register for signal <mav4>.
+    Found 31-bit adder for signal <mav4$add0000> created at line 289.
+    Found 131072-bit register for signal <sumofValues>.
+    Found 28-bit adder carry out for signal <sumofValues$addsub0000> created at line 304.
+    Found 14x14-bit multiplier for signal <sumofValues$mult0000> created at line 304.
+    Found 14x14-bit multiplier for signal <sumofValues$mult0001> created at line 304.
+    Found 32-bit comparator greatequal for signal <sumofValues_4095$cmp_ge0000> created at line 301.
+    Found 28-bit register for signal <x0>.
+    Found 28-bit register for signal <x1>.
+    Found 28-bit register for signal <x10>.
+    Found 28-bit register for signal <x11>.
+    Found 28-bit register for signal <x12>.
+    Found 28-bit register for signal <x13>.
+    Found 28-bit register for signal <x14>.
+    Found 28-bit register for signal <x15>.
+    Found 28-bit register for signal <x2>.
+    Found 28-bit register for signal <x3>.
+    Found 28-bit register for signal <x4>.
+    Found 28-bit register for signal <x5>.
+    Found 28-bit register for signal <x6>.
+    Found 28-bit register for signal <x7>.
+    Found 28-bit register for signal <x8>.
+    Found 28-bit register for signal <x9>.
+INFO:Xst:738 - HDL ADVISOR - 131072 flip-flops were inferred for signal <sumofValues>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred   2 RAM(s).
+	inferred   2 Counter(s).
+	inferred 131981 D-type flip-flop(s).
+	inferred  17 Adder/Subtractor(s).
+	inferred   3 Multiplier(s).
+	inferred   5 Comparator(s).
+	inferred  32 Multiplexer(s).
+Unit <fft_method> synthesized.
+
+
+Synthesizing Unit <toplevel>.
+    Related source file is "D:/Project/Project/toplevel.vhd".
+WARNING:Xst:646 - Signal <sine_3d> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <pw> is used but never assigned. This sourceless signal will be automatically connected to value 000000000000000110010000.
+WARNING:Xst:653 - Signal <pri> is used but never assigned. This sourceless signal will be automatically connected to value 000000000011111010000000.
+WARNING:Xst:646 - Signal <cosine> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 14-bit register for signal <ADC1>.
+    Found 14-bit register for signal <ADC2>.
+    Found 24-bit up counter for signal <counter>.
+    Found 1-bit register for signal <pulse>.
+    Found 14-bit register for signal <sine_1d>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  43 D-type flip-flop(s).
+Unit <toplevel> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 4096x14-bit single-port RAM                           : 2
+# Multipliers                                          : 3
+ 14x14-bit multiplier                                  : 3
+# Adders/Subtractors                                   : 17
+ 14-bit adder                                          : 1
+ 28-bit adder                                          : 8
+ 28-bit adder carry out                                : 1
+ 29-bit adder                                          : 4
+ 30-bit adder                                          : 2
+ 31-bit adder                                          : 1
+# Counters                                             : 4
+ 24-bit up counter                                     : 1
+ 32-bit up counter                                     : 3
+# Registers                                            : 4134
+ 1-bit register                                        : 3
+ 14-bit register                                       : 3
+ 28-bit register                                       : 25
+ 29-bit register                                       : 4
+ 30-bit register                                       : 2
+ 31-bit register                                       : 1
+ 32-bit register                                       : 4096
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+# Comparators                                          : 5
+ 27-bit comparator greater                             : 1
+ 27-bit comparator less                                : 1
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator less                                : 1
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 1
+ 32-bit 4096-to-1 multiplexer                          : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+

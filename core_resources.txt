@@ -1,0 +1,3 @@
+BRAMs: 18
+mults: 15
+

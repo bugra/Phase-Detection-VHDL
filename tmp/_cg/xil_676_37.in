@@ -1,0 +1,33 @@
+SET_FLAG DEBUG FALSE
+SET_FLAG MODE INTERACTIVE
+SET_FLAG STANDALONE_MODE FALSE
+SET_COMMAND_CONTEXT STRING webbrowserpath C:\Program Files\Internet Explorer\iexplore.exe
+SET_COMMAND_CONTEXT STRING pdfviewerpath "C:\Program Files\Adobe\Acrobat 6.0\Acrobat\Acrobat.exe"
+SET_COMMAND_CONTEXT INT mainwindowxcoord 0
+SET_COMMAND_CONTEXT INT mainwindowycoord 0
+SET_COMMAND_CONTEXT INT mainwindowwidth 200
+SET_COMMAND_CONTEXT INT mainwindowheight 400
+SET_PREFERENCE flowvendor Foundation_iSE
+SET_PREFERENCE verilogsim True
+SET_PREFERENCE vhdlsim True
+SET_PREFERENCE workingdirectory D:\Project\Project\tmp
+SET_PREFERENCE speedgrade -10
+SET_PREFERENCE simulationfiles Behavioral
+SET_PREFERENCE asysymbol True
+SET_PREFERENCE addpads False
+SET_PREFERENCE outputdirectory D:\Project\Project
+SET_PREFERENCE device xc4vsx35
+SET_PREFERENCE implementationfiletype Ngc
+SET_PREFERENCE busformat BusFormatAngleBracketNotRipped
+SET_PREFERENCE foundationsym False
+SET_PREFERENCE package ff668
+SET_PREFERENCE createndf False
+SET_PREFERENCE designentry VHDL
+SET_PREFERENCE devicefamily virtex4
+SET_PREFERENCE formalverification False
+SET_PREFERENCE removerpms False
+SET_PARAMETER component_name div
+SET_CORE_CLASS com.xilinx.ip.div_gen_v1_0.div_gen_v1_0
+SET_CORE_PATH C:\Xilinx\10.1\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\div_gen_v1_0\
+SET_CORE_NAME Divider Generator
+SET_CORE_VERSION 1.0

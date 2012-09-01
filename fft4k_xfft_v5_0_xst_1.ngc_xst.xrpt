@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="nt" product="ISE" version="10.1.03">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="Xst" timeStamp="Mon Aug 23 15:18:21 2010">
+    <section stringID="XST_HDL_SYNTHESIS_REPORT">
+      <item dataType="int" stringID="XST_RAMS" value="4"></item>
+      <item dataType="int" stringID="XST_ROMS" value="2"></item>
+      <item dataType="int" stringID="XST_ADDERSSUBTRACTORS" value="27">
+        <item dataType="int" stringID="XST_16BIT_ADDER" value="12"/>
+      </item>
+      <item dataType="int" stringID="XST_COUNTERS" value="1"></item>
+      <item dataType="int" stringID="XST_REGISTERS" value="1851">
+        <item dataType="int" stringID="XST_1BIT_REGISTER" value="1003"/>
+        <item dataType="int" stringID="XST_10BIT_REGISTER" value="50"/>
+        <item dataType="int" stringID="XST_11BIT_REGISTER" value="7"/>
+        <item dataType="int" stringID="XST_14BIT_REGISTER" value="38"/>
+        <item dataType="int" stringID="XST_16BIT_REGISTER" value="158"/>
+        <item dataType="int" stringID="XST_2BIT_REGISTER" value="189"/>
+        <item dataType="int" stringID="XST_28BIT_REGISTER" value="2"/>
+        <item dataType="int" stringID="XST_30BIT_REGISTER" value="3"/>
+        <item dataType="int" stringID="XST_32BIT_REGISTER" value="2"/>
+        <item dataType="int" stringID="XST_4BIT_REGISTER" value="121"/>
+        <item dataType="int" stringID="XST_5BIT_REGISTER" value="4"/>
+        <item dataType="int" stringID="XST_6BIT_REGISTER" value="79"/>
+        <item dataType="int" stringID="XST_8BIT_REGISTER" value="50"/>
+        <item dataType="int" stringID="XST_9BIT_REGISTER" value="4"/>
+      </item>
+      <item dataType="int" stringID="XST_XORS" value="67">
+        <item dataType="int" stringID="XST_1BIT_XOR2" value="11"/>
+      </item>
+    </section>
+    <section stringID="XST_ADVANCED_HDL_SYNTHESIS_REPORT">
+      <item dataType="int" stringID="XST_RAMS" value="4"></item>
+      <item dataType="int" stringID="XST_ROMS" value="2"></item>
+      <item dataType="int" stringID="XST_ADDERSSUBTRACTORS" value="27">
+        <item dataType="int" stringID="XST_16BIT_ADDER" value="12"/>
+      </item>
+      <item dataType="int" stringID="XST_COUNTERS" value="1"></item>
+      <item dataType="int" stringID="XST_REGISTERS" value="10046">
+        <item dataType="int" stringID="XST_FLIPFLOPS" value="10046"/>
+      </item>
+      <item dataType="int" stringID="XST_XORS" value="67">
+        <item dataType="int" stringID="XST_1BIT_XOR2" value="11"/>
+      </item>
+    </section>
+    <section stringID="XST_FINAL_REGISTER_REPORT">
+      <item dataType="int" stringID="XST_REGISTERS" value="4564">
+        <item dataType="int" stringID="XST_FLIPFLOPS" value="4564"/>
+      </item>
+      <item dataType="int" stringID="XST_SHIFT_REGISTERS" value="861">
+        <item dataType="int" stringID="XST_2BIT_SHIFT_REGISTER" value="402"/>
+        <item dataType="int" stringID="XST_3BIT_SHIFT_REGISTER" value="52"/>
+      </item>
+    </section>
+    <section stringID="XST_PARTITION_REPORT">
+      <section stringID="XST_PARTITION_IMPLEMENTATION_STATUS">
+        <section stringID="XST_NO_PARTITIONS_WERE_FOUND_IN_THIS_DESIGN"/>
+      </section>
+    </section>
+    <section stringID="XST_FINAL_REPORT">
+      <section stringID="XST_FINAL_RESULTS">
+        <item stringID="XST_TOP_LEVEL_OUTPUT_FILE_NAME" value="tmp\_cg\fft4k_xfft_v5_0_xst_1.ngc"/>
+        <item stringID="XST_OUTPUT_FORMAT" value="NGC"/>
+        <item stringID="XST_OPTIMIZATION_GOAL" value="SPEED"/>
+        <item stringID="XST_KEEP_HIERARCHY" value="no"/>
+      </section>
+      <section stringID="XST_DESIGN_STATISTICS">
+        <item stringID="XST_IOS" value="1056"/>
+      </section>
+      <section stringID="XST_CELL_USAGE">
+        <item dataType="int" stringID="XST_BELS" value="7817">
+          <item dataType="int" stringID="XST_GND" value="131"/>
+          <item dataType="int" stringID="XST_INV" value="209"/>
+          <item dataType="int" stringID="XST_LUT1" value="248"/>
+          <item dataType="int" stringID="XST_LUT2" value="717"/>
+          <item dataType="int" stringID="XST_LUT3" value="2213"/>
+          <item dataType="int" stringID="XST_LUT4" value="178"/>
+          <item dataType="int" stringID="XST_MULTAND" value="216"/>
+          <item dataType="int" stringID="XST_MUXCY" value="1546"/>
+          <item dataType="int" stringID="XST_MUXF5" value="768"/>
+          <item dataType="int" stringID="XST_VCC" value="95"/>
+          <item dataType="int" stringID="XST_XORCY" value="1496"/>
+        </item>
+        <item dataType="int" stringID="XST_FLIPFLOPSLATCHES" value="5425">
+          <item dataType="int" stringID="XST_FD" value="1051"/>
+          <item dataType="int" stringID="XST_FDE" value="3263"/>
+          <item dataType="int" stringID="XST_FDR" value="69"/>
+          <item dataType="int" stringID="XST_FDRE" value="1037"/>
+          <item dataType="int" stringID="XST_FDS" value="4"/>
+          <item dataType="int" stringID="XST_FDSE" value="1"/>
+        </item>
+        <item dataType="int" stringID="XST_RAMS" value="267">
+          <item dataType="int" stringID="XST_RAM16X1D" value="188"/>
+        </item>
+        <item dataType="int" stringID="XST_SHIFT_REGISTERS" value="1101">
+          <item dataType="int" stringID="XST_SRL16" value="153"/>
+          <item dataType="int" stringID="XST_SRL16E" value="924"/>
+        </item>
+      </section>
+    </section>
+    <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
+      <item stringID="XST_SELECTED_DEVICE" value="4vsx35ff668-12"/>
+      <item AVAILABLE="15360" dataType="int" stringID="XST_NUMBER_OF_SLICES" value="3763"/>
+      <item AVAILABLE="30720" dataType="int" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="5425"/>
+      <item AVAILABLE="30720" dataType="int" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="5164"/>
+      <item dataType="int" stringID="XST_NUMBER_USED_AS_LOGIC" value="3565"/>
+      <item dataType="int" stringID="XST_NUMBER_USED_AS_SHIFT_REGISTERS" value="1101"/>
+      <item dataType="int" stringID="XST_NUMBER_USED_AS_RAMS" value="498"/>
+      <item dataType="int" stringID="XST_NUMBER_OF_IOS" value="1056"/>
+      <item AVAILABLE="448" dataType="int" stringID="XST_NUMBER_OF_BONDED_IOBS" value="0"/>
+    </section>
+    <section stringID="XST_PARTITION_RESOURCE_SUMMARY">
+      <section stringID="XST_NO_PARTITIONS_WERE_FOUND_IN_THIS_DESIGN"/>
+    </section>
+    <section stringID="XST_ERRORS_STATISTICS">
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="3828"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="241"/>
+    </section>
+  </application>
+
+</document>

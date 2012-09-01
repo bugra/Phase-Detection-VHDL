@@ -1,0 +1,3 @@
+verilog work "fifo.v"
+verilog work "./fft4k.v"
+vhdl work "fft_method.vhd"

@@ -1,0 +1,24 @@
+V3 17
+FL D:/Project/Project/fft_method.vhd 2010/08/27.16:29:27 K.39
+EN work/fft_method 1282915770 FL D:/Project/Project/fft_method.vhd \
+      PB ieee/std_logic_1164 1217055545 PH ieee/NUMERIC_STD 1217055545
+AR work/fft_method/Behavioral 1282915771 \
+      FL D:/Project/Project/fft_method.vhd EN work/fft_method 1282915770 CP fft4k \
+      CP fifo
+FL D:/Project/Project/multiplicationmethod.vhd 2010/08/26.17:24:41 K.39
+EN work/multiplicationmethod 1282892553 \
+      FL D:/Project/Project/multiplicationmethod.vhd PB ieee/std_logic_1164 1217055545 \
+      PH ieee/NUMERIC_STD 1217055545
+AR work/multiplicationmethod/Behavioral 1282892554 \
+      FL D:/Project/Project/multiplicationmethod.vhd EN work/multiplicationmethod 1282892553
+FL D:/Project/Project/Ram.vhd 2010/08/27.09:43:31 K.39
+EN work/ram_4096x13 0 FL D:/Project/Project/Ram.vhd PB ieee/std_logic_1164 1217055545 \
+      PH ieee/NUMERIC_STD 1217055545
+AR work/ram_4096x13/Behavioral 0 \
+      FL D:/Project/Project/Ram.vhd EN work/ram_4096x13 0
+FL D:/Project/Project/toplevel.vhd 2010/08/26.17:37:00 K.39
+EN work/toplevel 1282892555 FL D:/Project/Project/toplevel.vhd \
+      PB ieee/std_logic_1164 1217055545 PH ieee/NUMERIC_STD 1217055545
+AR work/toplevel/Behavioral 1282892556 \
+      FL D:/Project/Project/toplevel.vhd EN work/toplevel 1282892555 CP dds \
+      CP fft_method CP multiplicationmethod

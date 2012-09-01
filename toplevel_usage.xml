@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="7">
+<DesignStatistics TimeStamp="Tue Aug 24 15:31:17 2010"><group name="MiscellaneousStatistics">
+<item name="Xilinx Core dds_compiler_v2_1, Xilinx CORE Generator 10.1.03" rev="7">
+<attrib name="value" value="1"/></item>
+<item name="Xilinx Core fifo_generator_v4_3, Xilinx CORE Generator 10.1.03" rev="7">
+<attrib name="value" value="1"/></item>
+<item name="Xilinx Core xfft_v5_0, Xilinx CORE Generator 10.1.03" rev="7">
+<attrib name="value" value="1"/></item>
+</group>
+</DesignStatistics>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

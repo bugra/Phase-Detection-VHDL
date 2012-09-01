@@ -1,0 +1,353 @@
+Release 10.1.03 ngdbuild K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise
+D:/Project/Project/Project.ise -intstyle ise -dd _ngo -nt timestamp -i -p
+xc4vsx35-ff668-10 toplevel.ngc toplevel.ngd
+
+Reading NGO file "D:/Project/Project/toplevel.ngc" ...
+Loading design module "D:\Project\Project/dds.ngc"...
+Loading design module "D:\Project\Project/fifo.ngc"...
+Loading design module "D:\Project\Project/fft4k.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+Checking Partitions ...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000305' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000306' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000307' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000308' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000309' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000030a' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000030b' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000030c' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000031b' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000031c' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000031d' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000369' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000036a' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000036b' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000036c' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000036d' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000036e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000036f' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000370' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000037f' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000380' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000381' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'fftmethod/fftblock/blk00000003/blk0000061c/blk00000679' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c13' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c14' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c15' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c16' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c17' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c18' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c19' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c1a' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c29' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c2a' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c2b' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c77' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c78' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c79' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c7a' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c7b' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c7c' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c7d' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c7e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c8d' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c8e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00000c8f' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'fftmethod/fftblock/blk00000003/blk00000eda/blk00000f7e' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'fftmethod/fftblock/blk00000003/blk00000eda/blk00000f80' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk000015c8' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk000015c9' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk000015ca' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk000015cb' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk000015cc' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk000015cd' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk000015ce' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk000015cf' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk000015de' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk000015df' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk000015e0' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000162c' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000162d' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000162e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000162f' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001630' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001631' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001632' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001633' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001642' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001643' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001644' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001e5f' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001e60' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001e61' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001e62' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001e63' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001e64' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001e65' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001e66' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001e75' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001e76' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001e77' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001ec3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001ec4' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001ec5' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001ec6' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001ec7' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001ec8' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001ec9' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001eca' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001ed9' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001eda' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00001edb' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002810' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002811' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002812' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002813' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002814' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002815' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002816' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002817' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002826' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002827' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002828' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002874' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002875' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002876' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002877' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002878' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002879' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000287a' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000287b' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000288a' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000288b' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk0000288c' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002ea3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002ea4' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002eb3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002eb4' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002eb5' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002eef' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002ef0' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002eff' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002f00' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fftmethod/fftblock/blk00000003/blk00002f01' has unconnected output pin
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase<32>' has no driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<17>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<16>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<15>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<14>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_final<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_shaped<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_shaped<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_shaped<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_shaped<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_shaped<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_shaped<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_shaped<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_shaped<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_shaped<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/acc_phase_shaped<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/accel_first<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/accel_first<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/accel_first<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/accel_first<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/accel_first<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/accel_first<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/accel_first<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/accel_first<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/accel_first<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'mydds/BU2/U0/accel_first<0>' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 162
+
+Total memory usage is 125864 kilobytes
+
+Writing NGD file "toplevel.ngd" ...
+
+Writing NGDBUILD log file "toplevel.bld"...

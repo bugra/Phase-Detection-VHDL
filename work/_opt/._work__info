@@ -1,0 +1,261 @@
+m255
+13
+cModel Technology
+dD:\Project\Project
+T_opt
+V1e9TnF2j_S1YfnWVi3L1H0
+06 11 8 ./work toplevel_tb behavior 1
+o-quiet -auto_acc_if_foreign -work work
+tExplicit 1
+OE;O;6.2f;35
+Edds
+w1282561811
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dD:\Project\Project
+8dds.vhd
+Fdds.vhd
+l0
+L43
+V?n8o4Enc;dGngh4@DW`e33
+OE;C;6.2f;35
+32
+tExplicit 1
+Adds_a
+DP xilinxcorelib dds_compiler_v2_1_sim_comps X4:Z1IGbS5?9Mf98K`oM42
+DP xilinxcorelib pkg_dds_compiler_v2_1 P=cdZBTz0L`A[U67PRUMj0
+DP xilinxcorelib iputils_conv lSV93:B?9^Ub;GPgfVDFY3
+DP xilinxcorelib xcc_utils_v9_1 cC=L76M0[3ne>d]Xj8EWj3
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP xilinxcorelib prims_utils_v9_1 Ak?<2MkSaEFO9`1<i>TVc3
+DP xilinxcorelib prims_constants_v9_1 PWc72JaYjPFUTO<c_UzeX3
+DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_signed <9<Kcl:S52:oW`F]FQhb20
+DE xilinxcorelib dds_compiler_v2_1 A`eUQPEdQf`Zhf07]>=oe1
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work dds ?n8o4Enc;dGngh4@DW`e33
+32
+M12 ieee std_logic_1164
+M11 ieee std_logic_signed
+M10 ieee std_logic_arith
+M9 ieee numeric_std
+M8 ieee math_real
+M7 xilinxcorelib prims_constants_v9_1
+M6 xilinxcorelib prims_utils_v9_1
+M5 std textio
+M4 xilinxcorelib xcc_utils_v9_1
+M3 xilinxcorelib iputils_conv
+M2 xilinxcorelib pkg_dds_compiler_v2_1
+M1 xilinxcorelib dds_compiler_v2_1_sim_comps
+l91
+L50
+VULZoU:09InH;5VV?13Y9o3
+OE;C;6.2f;35
+tExplicit 1
+Efft4k
+w1282566120
+DP ieee vital_primitives E9g6AWKAc2T]enMfl94If3
+DP ieee vital_timing OBWK>;kUYmkG<OChK2lhV1
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP unisim vpkg N6IdFfNfbnDl5MbQ:1?Y@1
+DP unisim vcomponents 3RmWU:JP_73UiCaFGQVK[0
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dD:\Project\Project
+8fft4k.vhd
+Ffft4k.vhd
+l0
+L43
+V[UY<WRNh]6WUd2=^j^A891
+OE;C;6.2f;35
+32
+tExplicit 1
+Astructure
+DE unisim ram32x1s P>C=S?_<?i_:XLmX]XD5]1
+DE unisim ram16x1d 9mnjZOfBX`;dQog_cRzI01
+DE unisim srlc16 LM5e^;hfj_YYOQXl^>5591
+DE unisim mult_and ;<R3Y^_GZoBD9H8ZDUUOQ1
+DE unisim dsp48 _V5^0]lG1LW@BeKY58_fM3
+DE unisim muxf5 AlgeK>9gk9_K5X@41O`oh3
+DE unisim xorcy f_HNG_6cTc;Xf_?cDBN]:1
+DE unisim muxcy I6c3^oFBXWWkOQ`RcS7nX3
+DE unisim fdre CPU0aDU[BRd@Nc?JoX5:P3
+DE unisim fdr ]lg:?R0m5lJT4PYEhBeNl3
+DE unisim lut4 jf;=^>gZ:YP1feIaFR9:02
+DE unisim fds @G4_lAoAN@>DAFX=7D0F40
+DE unisim fdse kFd[BXdMlOF04^AM7ZLHn2
+DE unisim lut3 VIc7>B4d4:I1Ig]YfhJ;i0
+DE unisim lut1 ZVZX=:=PMYMOF573APZ6E0
+DE unisim lut2 L6O7N@iJgWe4E9eA9439Z2
+DE unisim inv I@6[O]9[b5F`30aGF1FfO3
+DE unisim ramb16 FozXcM@^[nPHSNfK3_V`i2
+DE unisim srl16e SCVX;O@h@Sd2H@2K4DkB80
+DE unisim fde ;kbOOK9I`g4Dn@T>mIWGe0
+DE unisim srl16 zF`A[2V_`J^9ePX_`A`F13
+DE unisim fd cz`m9?S=YM]W?h2]k1EFG3
+DE unisim gnd hg5h[KiSN:`^QZck;6IWi2
+DE unisim vcc <Y:F@HbGTSC_8[6>1]NX^0
+DP ieee vital_primitives E9g6AWKAc2T]enMfl94If3
+DP ieee vital_timing OBWK>;kUYmkG<OChK2lhV1
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP unisim vpkg N6IdFfNfbnDl5MbQ:1?Y@1
+DP unisim vcomponents 3RmWU:JP_73UiCaFGQVK[0
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work fft4k [UY<WRNh]6WUd2=^j^A891
+32
+M6 ieee std_logic_1164
+M5 unisim vcomponents
+M4 unisim vpkg
+M3 std textio
+M2 ieee vital_timing
+M1 ieee vital_primitives
+l18087
+L65
+V6`J=f_ecERcgZ]bdOIQT^1
+OE;C;6.2f;35
+tExplicit 1
+Efft_method
+w1282915767
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dD:\Project\Project
+8fft_method.vhd
+Ffft_method.vhd
+l0
+L26
+VAHPF;nlJ1TU9OW<>zJzWT0
+OE;C;6.2f;35
+32
+tExplicit 1
+Abehavioral
+DE work fifo h9`U9NT^`ZP_X`OFnI7nf3
+DE work fft4k [UY<WRNh]6WUd2=^j^A891
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work fft_method AHPF;nlJ1TU9OW<>zJzWT0
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l189
+L33
+VIFz6cZUR>fEiEA?QDzcl:3
+OE;C;6.2f;35
+tExplicit 1
+Efifo
+w1282565707
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dD:\Project\Project
+8fifo.vhd
+Ffifo.vhd
+l0
+L43
+Vh9`U9NT^`ZP_X`OFnI7nf3
+OE;C;6.2f;35
+32
+tExplicit 1
+Afifo_a
+DP xilinxcorelib iputils_misc EmV@TNAQL3hk`[>[hl3:S2
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP xilinxcorelib iputils_conv lSV93:B?9^Ub;GPgfVDFY3
+DP xilinxcorelib iputils_std_logic_arith UlG>JDMO[L]_1oRj3ZWNM2
+DP xilinxcorelib iputils_std_logic_unsigned G<2]VkD@d]lT41;[L3zQ]2
+DE xilinxcorelib fifo_generator_v4_3 YS]gYe8_X[?cF=HRL=3oh0
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work fifo h9`U9NT^`ZP_X`OFnI7nf3
+32
+M6 ieee std_logic_1164
+M5 xilinxcorelib iputils_std_logic_unsigned
+M4 xilinxcorelib iputils_std_logic_arith
+M3 xilinxcorelib iputils_conv
+M2 std textio
+M1 xilinxcorelib iputils_misc
+l136
+L57
+V@`nLN0?QRQ^1Q<Ud=;OYU3
+OE;C;6.2f;35
+tExplicit 1
+Emultiplicationmethod
+w1282832681
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dD:\Project\Project
+8multiplicationmethod.vhd
+Fmultiplicationmethod.vhd
+l0
+L31
+V4EWRl96CJcekNcgM?2h690
+OE;C;6.2f;35
+32
+tExplicit 1
+Abehavioral
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work multiplicationmethod 4EWRl96CJcekNcgM?2h690
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l93
+L39
+Vge]S4PbB;3R^;nkIJ>]JJ2
+OE;C;6.2f;35
+tExplicit 1
+Etoplevel
+w1282898049
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dD:\Project\Project
+8toplevel.vhd
+Ftoplevel.vhd
+l0
+L31
+VKJ`dhjP=Khg:RC0P4e[K90
+OE;C;6.2f;35
+32
+tExplicit 1
+Abehavioral
+DE work multiplicationmethod 4EWRl96CJcekNcgM?2h690
+DE work fft_method AHPF;nlJ1TU9OW<>zJzWT0
+DE work dds ?n8o4Enc;dGngh4@DW`e33
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work toplevel KJ`dhjP=Khg:RC0P4e[K90
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l90
+L37
+V6JG06moH:SZ@1YI9Vi4<H1
+OE;C;6.2f;35
+tExplicit 1
+Etoplevel_tb
+w1282571967
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dD:\Project\Project
+8toplevel_tb.vhd
+Ftoplevel_tb.vhd
+l0
+L33
+Vj4[Im<BkllAiAi7=M2L7=2
+OE;C;6.2f;35
+32
+tExplicit 1
+Abehavior
+DE work toplevel KJ`dhjP=Khg:RC0P4e[K90
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work toplevel_tb j4[Im<BkllAiAi7=M2L7=2
+32
+M4 ieee std_logic_1164
+M3 ieee std_logic_unsigned
+M2 ieee std_logic_arith
+M1 ieee numeric_std
+l58
+L36
+VMGC^]M2ESnRe;g]PDeHLD1
+OE;C;6.2f;35
+tExplicit 1

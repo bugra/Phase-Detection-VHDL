@@ -1,0 +1,6 @@
+verilog work "fifo.v"
+verilog work "./fft4k.v"
+vhdl work "multiplicationmethod.vhd"
+vhdl work "fft_method.vhd"
+verilog work "./dds.v"
+vhdl work "toplevel.vhd"

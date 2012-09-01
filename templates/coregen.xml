@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RootFolder label="COREGEN" treetype="folder" language="COREGEN">
+	<Folder label="VERILOG Component Instantiation" treetype="folder">
+		<Template label="dds" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+dds YourInstanceName (
+    .clk(clk),
+    .cosine(cosine), // Bus [13 : 0] 
+    .sine(sine)); // Bus [13 : 0] 
+
+ 
+		</Template>
+		<Template label="fifo" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+fifo YourInstanceName (
+    .clk(clk),
+    .din(din), // Bus [13 : 0] 
+    .rd_en(rd_en),
+    .srst(srst),
+    .wr_en(wr_en),
+    .almost_empty(almost_empty),
+    .almost_full(almost_full),
+    .dout(dout), // Bus [13 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+		<Template label="fft4k" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+fft4k YourInstanceName (
+    .clk(clk),
+    .start(start),
+    .xn_re(xn_re), // Bus [13 : 0] 
+    .xn_im(xn_im), // Bus [13 : 0] 
+    .fwd_inv(fwd_inv),
+    .fwd_inv_we(fwd_inv_we),
+    .scale_sch(scale_sch), // Bus [11 : 0] 
+    .scale_sch_we(scale_sch_we),
+    .rfd(rfd),
+    .xn_index(xn_index), // Bus [11 : 0] 
+    .busy(busy),
+    .edone(edone),
+    .done(done),
+    .dv(dv),
+    .xk_index(xk_index), // Bus [11 : 0] 
+    .xk_re(xk_re), // Bus [13 : 0] 
+    .xk_im(xk_im)); // Bus [13 : 0] 
+
+ 
+		</Template>
+	</Folder>
+	<Folder label="VHDL Component Instantiation" treetype="folder">
+		<Template label="dds" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component dds
+    port (
+    clk: IN std_logic;
+    cosine: OUT std_logic_VECTOR(13 downto 0);
+    sine: OUT std_logic_VECTOR(13 downto 0));
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : dds
+        port map (
+            clk =&gt; clk,
+            cosine =&gt; cosine,
+            sine =&gt; sine);
+ 
+		</Template>
+		<Template label="fifo" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component fifo
+    port (
+    clk: IN std_logic;
+    din: IN std_logic_VECTOR(13 downto 0);
+    rd_en: IN std_logic;
+    srst: IN std_logic;
+    wr_en: IN std_logic;
+    almost_empty: OUT std_logic;
+    almost_full: OUT std_logic;
+    dout: OUT std_logic_VECTOR(13 downto 0);
+    empty: OUT std_logic;
+    full: OUT std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : fifo
+        port map (
+            clk =&gt; clk,
+            din =&gt; din,
+            rd_en =&gt; rd_en,
+            srst =&gt; srst,
+            wr_en =&gt; wr_en,
+            almost_empty =&gt; almost_empty,
+            almost_full =&gt; almost_full,
+            dout =&gt; dout,
+            empty =&gt; empty,
+            full =&gt; full);
+ 
+		</Template>
+		<Template label="fft4k" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component fft4k
+    port (
+    clk: IN std_logic;
+    start: IN std_logic;
+    xn_re: IN std_logic_VECTOR(13 downto 0);
+    xn_im: IN std_logic_VECTOR(13 downto 0);
+    fwd_inv: IN std_logic;
+    fwd_inv_we: IN std_logic;
+    scale_sch: IN std_logic_VECTOR(11 downto 0);
+    scale_sch_we: IN std_logic;
+    rfd: OUT std_logic;
+    xn_index: OUT std_logic_VECTOR(11 downto 0);
+    busy: OUT std_logic;
+    edone: OUT std_logic;
+    done: OUT std_logic;
+    dv: OUT std_logic;
+    xk_index: OUT std_logic_VECTOR(11 downto 0);
+    xk_re: OUT std_logic_VECTOR(13 downto 0);
+    xk_im: OUT std_logic_VECTOR(13 downto 0));
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : fft4k
+        port map (
+            clk =&gt; clk,
+            start =&gt; start,
+            xn_re =&gt; xn_re,
+            xn_im =&gt; xn_im,
+            fwd_inv =&gt; fwd_inv,
+            fwd_inv_we =&gt; fwd_inv_we,
+            scale_sch =&gt; scale_sch,
+            scale_sch_we =&gt; scale_sch_we,
+            rfd =&gt; rfd,
+            xn_index =&gt; xn_index,
+            busy =&gt; busy,
+            edone =&gt; edone,
+            done =&gt; done,
+            dv =&gt; dv,
+            xk_index =&gt; xk_index,
+            xk_re =&gt; xk_re,
+            xk_im =&gt; xk_im);
+ 
+		</Template>
+	</Folder>
+</RootFolder>

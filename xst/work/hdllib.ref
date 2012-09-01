@@ -1,0 +1,11 @@
+AR toplevel behavioral D:/Project/Project/toplevel.vhd sub00/vhpl03 1282892556
+EN ram_4096x13 NULL D:/Project/Project/Ram.vhd sub00/vhpl07 1282892444
+MO dds NULL ./dds.v vlg2B/dds.bin 1282892551
+MO fft4k NULL ./fft4k.v vlg17/fft4k.bin 1282915770
+AR fft_method behavioral D:/Project/Project/fft_method.vhd sub00/vhpl01 1282915771
+EN toplevel NULL D:/Project/Project/toplevel.vhd sub00/vhpl02 1282892555
+EN ram_512x8 NULL D:/Project/Project/Ram.vhd sub00/vhpl06 1282891414
+AR multiplicationmethod behavioral D:/Project/Project/multiplicationmethod.vhd sub00/vhpl05 1282892554
+EN multiplicationmethod NULL D:/Project/Project/multiplicationmethod.vhd sub00/vhpl04 1282892553
+EN fft_method NULL D:/Project/Project/fft_method.vhd sub00/vhpl00 1282915770
+MO fifo NULL fifo.v vlg7C/fifo.bin 1282915770

@@ -1,0 +1,40 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fifo.v" in library work
+Compiling verilog file "./fft4k.v" in library work
+Module <fifo> compiled
+Compiling verilog file "./dds.v" in library work
+Module <fft4k> compiled
+Module <dds> compiled
+No errors in compilation
+Analysis of file <"toplevel.prj"> succeeded.
+ 
+Compiling vhdl file "D:/Project/Project/fft_method.vhd" in Library work.
+Architecture behavioral of Entity fft_method is up to date.
+Compiling vhdl file "D:/Project/Project/multiplicationmethod.vhd" in Library work.
+Architecture behavioral of Entity multiplicationmethod is up to date.
+Compiling vhdl file "D:/Project/Project/toplevel.vhd" in Library work.
+Architecture behavioral of Entity toplevel is up to date.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> 
+
+Total memory usage is 120760 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

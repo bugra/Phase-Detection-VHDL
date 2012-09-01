@@ -1,0 +1,13 @@
+# Output products list for <fifo>
+fifo.asy
+fifo.ngc
+fifo.sym
+fifo.v
+fifo.veo
+fifo.vhd
+fifo.vho
+fifo.xco
+fifo_fifo_generator_v4_3_xst_1.ngc_xst.xrpt
+fifo_fifo_generator_v4_3_xst_1_vhdl.prj
+fifo_flist.txt
+fifo_xmdf.tcl

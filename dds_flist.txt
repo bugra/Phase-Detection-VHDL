@@ -1,0 +1,12 @@
+# Output products list for <dds>
+dds.asy
+dds.ngc
+dds.sym
+dds.v
+dds.veo
+dds.vhd
+dds.vho
+dds.xco
+dds_dds_compiler_v2_1_xst_1.ngc_xst.xrpt
+dds_flist.txt
+dds_xmdf.tcl

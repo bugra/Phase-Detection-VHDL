@@ -1,0 +1,13 @@
+# Output products list for <fft4k>
+core_resources.txt
+fft4k.asy
+fft4k.ngc
+fft4k.sym
+fft4k.v
+fft4k.veo
+fft4k.vhd
+fft4k.vho
+fft4k.xco
+fft4k_flist.txt
+fft4k_xfft_v5_0_xst_1.ngc_xst.xrpt
+fft4k_xmdf.tcl
